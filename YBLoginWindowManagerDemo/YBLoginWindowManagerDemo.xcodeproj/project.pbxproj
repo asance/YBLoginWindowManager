@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60FCC36089779B1912FC2EAF /* libPods-YBLoginWindowManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF149A99EF2C508573A0FC2 /* libPods-YBLoginWindowManagerDemo.a */; };
+		EC8D75E51FCFE7F600C6CBE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8D75E41FCFE7F600C6CBE2 /* AppDelegate.m */; };
+		EC8D75E81FCFE7F600C6CBE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8D75E71FCFE7F600C6CBE2 /* ViewController.m */; };
+		EC8D75EB1FCFE7F600C6CBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8D75E91FCFE7F600C6CBE2 /* Main.storyboard */; };
+		EC8D75ED1FCFE7F600C6CBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8D75EC1FCFE7F600C6CBE2 /* Assets.xcassets */; };
+		EC8D75F01FCFE7F600C6CBE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8D75EE1FCFE7F600C6CBE2 /* LaunchScreen.storyboard */; };
+		EC8D75F31FCFE7F600C6CBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8D75F21FCFE7F600C6CBE2 /* main.m */; };
+		EC8D75FD1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8D75FC1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests.m */; };
+		EC8D760A1FCFE85B00C6CBE2 /* YBLoginWindowManger.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8D76091FCFE85B00C6CBE2 /* YBLoginWindowManger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8D75F91FCFE7F600C6CBE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8D75D81FCFE7F600C6CBE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8D75DF1FCFE7F600C6CBE2;
+			remoteInfo = YBLoginWindowManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F69DB69266B0A5D0CC1169 /* Pods-YBLoginWindowManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBLoginWindowManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YBLoginWindowManagerDemo/Pods-YBLoginWindowManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF149A99EF2C508573A0FC2 /* libPods-YBLoginWindowManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YBLoginWindowManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD227FC094B8B3DE5234F6F /* Pods-YBLoginWindowManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBLoginWindowManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YBLoginWindowManagerDemo/Pods-YBLoginWindowManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EC8D75E01FCFE7F600C6CBE2 /* YBLoginWindowManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBLoginWindowManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8D75E31FCFE7F600C6CBE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC8D75E41FCFE7F600C6CBE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC8D75E61FCFE7F600C6CBE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC8D75E71FCFE7F600C6CBE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC8D75EA1FCFE7F600C6CBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8D75EC1FCFE7F600C6CBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8D75EF1FCFE7F600C6CBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC8D75F11FCFE7F600C6CBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8D75F21FCFE7F600C6CBE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8D75F81FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBLoginWindowManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8D75FC1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBLoginWindowManagerDemoTests.m; sourceTree = "<group>"; };
+		EC8D75FE1FCFE7F600C6CBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8D76081FCFE85B00C6CBE2 /* YBLoginWindowManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBLoginWindowManger.h; sourceTree = "<group>"; };
+		EC8D76091FCFE85B00C6CBE2 /* YBLoginWindowManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBLoginWindowManger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8D75DD1FCFE7F600C6CBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FCC36089779B1912FC2EAF /* libPods-YBLoginWindowManagerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8D75F51FCFE7F600C6CBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86CFA25C2237C4FB8BB70998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DF149A99EF2C508573A0FC2 /* libPods-YBLoginWindowManagerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A296A96710E0C855268E5A55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03F69DB69266B0A5D0CC1169 /* Pods-YBLoginWindowManagerDemo.debug.xcconfig */,
+				7CD227FC094B8B3DE5234F6F /* Pods-YBLoginWindowManagerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC8D75D71FCFE7F600C6CBE2 = {
+			isa = PBXGroup;
+			children = (
+				EC8D75E21FCFE7F600C6CBE2 /* YBLoginWindowManagerDemo */,
+				EC8D75FB1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests */,
+				EC8D75E11FCFE7F600C6CBE2 /* Products */,
+				A296A96710E0C855268E5A55 /* Pods */,
+				86CFA25C2237C4FB8BB70998 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8D75E11FCFE7F600C6CBE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8D75E01FCFE7F600C6CBE2 /* YBLoginWindowManagerDemo.app */,
+				EC8D75F81FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8D75E21FCFE7F600C6CBE2 /* YBLoginWindowManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC8D76071FCFE85B00C6CBE2 /* YBLoginWindowManager */,
+				EC8D75E31FCFE7F600C6CBE2 /* AppDelegate.h */,
+				EC8D75E41FCFE7F600C6CBE2 /* AppDelegate.m */,
+				EC8D75E61FCFE7F600C6CBE2 /* ViewController.h */,
+				EC8D75E71FCFE7F600C6CBE2 /* ViewController.m */,
+				EC8D75E91FCFE7F600C6CBE2 /* Main.storyboard */,
+				EC8D75EC1FCFE7F600C6CBE2 /* Assets.xcassets */,
+				EC8D75EE1FCFE7F600C6CBE2 /* LaunchScreen.storyboard */,
+				EC8D75F11FCFE7F600C6CBE2 /* Info.plist */,
+				EC8D75F21FCFE7F600C6CBE2 /* main.m */,
+			);
+			path = YBLoginWindowManagerDemo;
+			sourceTree = "<group>";
+		};
+		EC8D75FB1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8D75FC1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests.m */,
+				EC8D75FE1FCFE7F600C6CBE2 /* Info.plist */,
+			);
+			path = YBLoginWindowManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		EC8D76071FCFE85B00C6CBE2 /* YBLoginWindowManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC8D76081FCFE85B00C6CBE2 /* YBLoginWindowManger.h */,
+				EC8D76091FCFE85B00C6CBE2 /* YBLoginWindowManger.m */,
+			);
+			path = YBLoginWindowManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8D75DF1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8D76011FCFE7F600C6CBE2 /* Build configuration list for PBXNativeTarget "YBLoginWindowManagerDemo" */;
+			buildPhases = (
+				E3B47B3AA75AA46EE27E8A75 /* [CP] Check Pods Manifest.lock */,
+				EC8D75DC1FCFE7F600C6CBE2 /* Sources */,
+				EC8D75DD1FCFE7F600C6CBE2 /* Frameworks */,
+				EC8D75DE1FCFE7F600C6CBE2 /* Resources */,
+				66B1D14D3CF059340C09E281 /* [CP] Embed Pods Frameworks */,
+				9FC7C3875C4D836CC3E9708F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBLoginWindowManagerDemo;
+			productName = YBLoginWindowManagerDemo;
+			productReference = EC8D75E01FCFE7F600C6CBE2 /* YBLoginWindowManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8D75F71FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8D76041FCFE7F600C6CBE2 /* Build configuration list for PBXNativeTarget "YBLoginWindowManagerDemoTests" */;
+			buildPhases = (
+				EC8D75F41FCFE7F600C6CBE2 /* Sources */,
+				EC8D75F51FCFE7F600C6CBE2 /* Frameworks */,
+				EC8D75F61FCFE7F600C6CBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8D75FA1FCFE7F600C6CBE2 /* PBXTargetDependency */,
+			);
+			name = YBLoginWindowManagerDemoTests;
+			productName = YBLoginWindowManagerDemoTests;
+			productReference = EC8D75F81FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8D75D81FCFE7F600C6CBE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = asance;
+				TargetAttributes = {
+					EC8D75DF1FCFE7F600C6CBE2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EC8D75F71FCFE7F600C6CBE2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC8D75DF1FCFE7F600C6CBE2;
+					};
+				};
+			};
+			buildConfigurationList = EC8D75DB1FCFE7F600C6CBE2 /* Build configuration list for PBXProject "YBLoginWindowManagerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8D75D71FCFE7F600C6CBE2;
+			productRefGroup = EC8D75E11FCFE7F600C6CBE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8D75DF1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemo */,
+				EC8D75F71FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8D75DE1FCFE7F600C6CBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8D75F01FCFE7F600C6CBE2 /* LaunchScreen.storyboard in Resources */,
+				EC8D75ED1FCFE7F600C6CBE2 /* Assets.xcassets in Resources */,
+				EC8D75EB1FCFE7F600C6CBE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8D75F61FCFE7F600C6CBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66B1D14D3CF059340C09E281 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBLoginWindowManagerDemo/Pods-YBLoginWindowManagerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC7C3875C4D836CC3E9708F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YBLoginWindowManagerDemo/Pods-YBLoginWindowManagerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B47B3AA75AA46EE27E8A75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8D75DC1FCFE7F600C6CBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8D75E81FCFE7F600C6CBE2 /* ViewController.m in Sources */,
+				EC8D75F31FCFE7F600C6CBE2 /* main.m in Sources */,
+				EC8D760A1FCFE85B00C6CBE2 /* YBLoginWindowManger.m in Sources */,
+				EC8D75E51FCFE7F600C6CBE2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8D75F41FCFE7F600C6CBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8D75FD1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8D75FA1FCFE7F600C6CBE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8D75DF1FCFE7F600C6CBE2 /* YBLoginWindowManagerDemo */;
+			targetProxy = EC8D75F91FCFE7F600C6CBE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8D75E91FCFE7F600C6CBE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8D75EA1FCFE7F600C6CBE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8D75EE1FCFE7F600C6CBE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8D75EF1FCFE7F600C6CBE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8D75FF1FCFE7F600C6CBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC8D76001FCFE7F600C6CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8D76021FCFE7F600C6CBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F69DB69266B0A5D0CC1169 /* Pods-YBLoginWindowManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBLoginWindowManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBLoginWindowManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8D76031FCFE7F600C6CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD227FC094B8B3DE5234F6F /* Pods-YBLoginWindowManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBLoginWindowManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBLoginWindowManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC8D76051FCFE7F600C6CBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBLoginWindowManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBLoginWindowManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBLoginWindowManagerDemo.app/YBLoginWindowManagerDemo";
+			};
+			name = Debug;
+		};
+		EC8D76061FCFE7F600C6CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBLoginWindowManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBLoginWindowManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBLoginWindowManagerDemo.app/YBLoginWindowManagerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8D75DB1FCFE7F600C6CBE2 /* Build configuration list for PBXProject "YBLoginWindowManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8D75FF1FCFE7F600C6CBE2 /* Debug */,
+				EC8D76001FCFE7F600C6CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8D76011FCFE7F600C6CBE2 /* Build configuration list for PBXNativeTarget "YBLoginWindowManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8D76021FCFE7F600C6CBE2 /* Debug */,
+				EC8D76031FCFE7F600C6CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8D76041FCFE7F600C6CBE2 /* Build configuration list for PBXNativeTarget "YBLoginWindowManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8D76051FCFE7F600C6CBE2 /* Debug */,
+				EC8D76061FCFE7F600C6CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8D75D81FCFE7F600C6CBE2 /* Project object */;
+}

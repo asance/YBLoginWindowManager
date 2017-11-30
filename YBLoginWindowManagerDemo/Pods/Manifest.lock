@@ -1,0 +1,16 @@
+PODS:
+  - YBBaseCategory (1.0.1)
+  - YBBaseUI (1.0.2):
+    - YBBaseCategory (~> 1.0.1)
+
+DEPENDENCIES:
+  - YBBaseCategory (~> 1.0.1)
+  - YBBaseUI (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  YBBaseCategory: 513b0137d12fb39309b1967a3518b9904714bb48
+  YBBaseUI: 0054dff23bff4d45693a926007a0355341d47688
+
+PODFILE CHECKSUM: 0f5969c7768b1bfefdc94537c73831ded9a0a396
+
+COCOAPODS: 1.2.1
